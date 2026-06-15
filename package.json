@@ -1,0 +1,25 @@
+{
+  "name": "mars-campus-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "orchestrator": "node server.js",
+    "library": "node libraryServer.js",
+    "cafeteria": "node cafeteriaServer.js",
+    "events": "node eventsServer.js",
+    "frontend": "cd frontend && npm run dev",
+    "start-all": "concurrently \"npm run orchestrator\" \"npm run library\" \"npm run cafeteria\" \"npm run events\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^2.8.0",
+    "concurrently": "^10.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.2.1"
+  }
+}

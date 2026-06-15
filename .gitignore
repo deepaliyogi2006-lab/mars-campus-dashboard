@@ -1,0 +1,15 @@
+# Dependency folders (these are massive and can be re-installed using npm install)
+node_modules/
+frontend/node_modules/
+
+# Local production builds
+dist/
+build/
+
+# Local environment variables/secrets
+.env
+.env.local
+
+# Operating system metadata files
+.DS_Store
+Thumbs.db
