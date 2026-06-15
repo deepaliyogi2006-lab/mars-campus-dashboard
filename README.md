@@ -12,4 +12,6 @@ An interactive full-stack application built for the **MARS Open Projects framewo
 2. Install dependencies (if not already cached):
    ```bash
    npm install
-   google drive link for demonstartion vodeo: https://drive.google.com/drive/folders/1pbPTeK6z6jYhynJo4bKeNOlPRlpZyN1x?usp=sharing
+## 📹 Submission Project Demo Video
+Click the link below to watch the live full-stack application walkthrough:
+👉 [Watch Project Demo Video on Google Drive](https://drive.google.com/drive/folders/1pbPTeK6z6jYhynJo4bKeNOlPRlpZyN1x?usp=sharing)
